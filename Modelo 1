@@ -1,0 +1,36 @@
+void main(){
+   int numero1=4;
+   int numero2=2;
+   
+   int soma = numero1+numero2;
+   int subtracao = numero1-numero2;
+   int multiplicacao = numero1*numero2;
+   double divisao = numero1/numero2;
+   
+   if(soma%2==0){
+     print('Soma = $soma é par');}
+   else{
+     print('Soma = $soma é ímpar');
+   }
+   
+    if(subtracao%2==0){
+     print('Subtraçâo = $subtracao é  par');}
+   else{
+     print('Subtração = $subtracao é ímpar');
+   }
+   
+   
+    if(multiplicacao%2==0){
+     print('Multiplicacao = $multiplicacao é par');}
+   else{
+     print('Multiplicacao $multiplicacao é ímpar');
+   }
+   
+  if(divisao%2==0){
+     print('Divisão = $divisao é par');}
+   else{
+     print('Divisão = $divisao é ímpar');
+   }     
+   
+ }
+   
