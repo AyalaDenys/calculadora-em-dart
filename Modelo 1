@@ -1,6 +1,17 @@
-void main(){
-   int numero1=4;
-   int numero2=2;
+class Pessoa {
+  String nome;
+  int idade;
+  
+  Pessoa ( this.nome, this.idade);
+  void apresentar (){
+    print ("Olá, sou $nome e tenho $idade anos");}
+  }
+void main (){
+  var pessoa=Pessoa ("Ana",25);
+  pessoa.apresentar();
+  
+   int numero1=12;
+   int numero2=4;
    
    int soma = numero1+numero2;
    int subtracao = numero1-numero2;
